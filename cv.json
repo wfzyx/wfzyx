@@ -1,0 +1,451 @@
+"resume": {
+    "basics": {
+    "name": "Victor Panisa",
+    "label": "Master in Applied Computing",
+    "picture": "",
+    "email": "victor.panisa@gmail.com",
+    "phone": "+5513997778397",
+    "website": "",
+    "summary": "I am a technical expert with more than 10 years of experience as working as a general system engineer, delivering real value and reducing operational costs in each position that I was responsible for.\n\nI've helped the design, building and troubleshooting of many complex environments, and provided training and guidance for many colleagues.\n\nI'm able to communicate fluently in English, Spanish and Portuguese, while also being graduated Master in Applied Computing. With proven experience in Linux, Python, C# and low-level systems architecture, including C and Assembly language, I'm motivated the most by challenges and ideas that have a positive impact on people's lives.",
+    "location": {
+      "countryCode": "BR",
+      "address": ""
+    },
+    "profiles": [
+      {
+        "network": "Github",
+        "username": "wfzyx",
+        "url": "https://www.github.com/wfzyx/"
+      },
+      {
+        "network": "StackOverflow",
+        "username": "wfzyx",
+        "url": "https://stackoverflow.com/users/3681795/wfzyx"
+      }
+      {
+        "network": "LinkedIn",
+        "username": "wfzyx",
+        "url": "https://www.linkedin.com/in/wfzyx/"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "Citi",
+      "endDate": "",
+      "highlights": [],
+      "position": "Application Manager",
+      "startDate": "2021-02-28",
+      "summary": "Application infrastructure management, including server configuration, Linux, OpenShift, WebSphere MQ, uDeploy, Black Duck.",
+      "website": "https://www.linkedin.com/company/citi/"
+    },
+    {
+      "company": "Citi",
+      "endDate": "",
+      "highlights": [],
+      "position": "Instructor",
+      "startDate": "2020-03-31",
+      "summary": "Training and support for Data Science activities with Python and Jupyter. Developing activities using Data Cleansing, Machine Learning, Regression and Business Intelligence.",
+      "website": "https://www.linkedin.com/company/citi/"
+    },
+    {
+      "company": "Citi",
+      "endDate": "2021-03-31",
+      "highlights": [],
+      "position": "Software Engineer",
+      "startDate": "2019-12-31",
+      "summary": "C# essential solutions maintenance, expansion of new functionalities, performance improvements with asynchronous programming, training and knowledge sharing of other developers, development of Data Science activities and Big Data consolidation to control and improve the Digital Transformation Index of the regional units.",
+      "website": "https://www.linkedin.com/company/citi/"
+    },
+    {
+      "company": "Citi",
+      "endDate": "2020-06-30",
+      "highlights": [],
+      "position": "Technical Lead",
+      "startDate": "2019-12-31",
+      "summary": "C# solutions development involving architectural definitions, workflow alignment, squad motivation, KPIs monitoring with the project team, making facilitating libraries, standardizing documentation, training and knowledge growth on a 6 month special project using scrum methodology.",
+      "website": "https://www.linkedin.com/company/citi/"
+    },
+    {
+      "company": "Frequentis",
+      "endDate": "2019-12-31",
+      "highlights": [],
+      "position": "Systems Engineer",
+      "startDate": "2019-01-31",
+      "summary": "Software-oriented test and deployment of mixed WAN environments, with troubleshooting and integration of proprietary appliances and third-party applications ED-137 compliant, including VoIP, IP Radios and monitoring with in-person and remote activities on Austria’s office.",
+      "website": "https://www.linkedin.com/company/frequentis/"
+    },
+    {
+      "company": "Prodesp",
+      "endDate": "2019-02-28",
+      "highlights": [],
+      "position": "Network Analyst",
+      "startDate": "2016-07-31",
+      "summary": "Experience in network engineering and deployment on projects for São Paulo government, including project design, segmentation, troubleshooting, configuration and monitoring of dispersed and multi-vendor environments, implementation of Python scripts for network assets configuration backup, and system administration and monitoring of environments with HP IMC.",
+      "website": "https://www.linkedin.com/company/prodesp/"
+    },
+    {
+     "company": "Prodesp",
+      "endDate": "2016-06-30",
+      "highlights": [],
+      "position": "C# Developer",
+      "startDate": "2014-02-28",
+      "summary": "Development of web applications in the MVC model with C# ASP.NET and MSSQL database, for contract management, mirroring of point and record of activities of the resources. Including, but not limited to: integration of data with external sources; report generation with Crystal Reports; dynamic charts with JavaScript; data collection with Python scripts.",
+      "website": "https://www.linkedin.com/company/prodesp/"
+    },
+    {
+      "company": "G4 Soluções para Contact Center",
+      "endDate": "2013-10-31",
+      "highlights": [],
+      "position": "Support Analyst",
+      "startDate": "2012-08-31",
+      "summary": "Acting in implementation and support in contact center’s applications for process automation, including creation, configuration and maintenance of software upgrade scripts in Python, MSSQL database analysis, requirements gathering, training and troubleshooting. Deployment, configuration and maintenance of PFSense firewall, and system administration and monitoring of environments with Nagios.",
+      "website": "https://www.linkedin.com/company/g4-solutions-software/"
+    },
+    {
+      "company": "TIVIT",
+      "endDate": "2012-07-31",
+      "highlights": [],
+      "position": "IT Intern",
+      "startDate": "2012-02-28",
+      "summary": "Contact Center’s operations maintenance and support, including hardware and software configuration, automatic inventory and VoIP monitoring in Avaya environment with Python scripts.",
+      "website": "https://www.linkedin.com/company/tivit/"
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "Laboratoria",
+      "position": "Mentor",
+      "website": "https://www.linkedin.com/school/laboratoria/",
+      "startDate": "2021-04-30",
+      "endDate": "",
+      "summary": "Helping the woman students at Laboratoria with professional development mentorship",
+      "highlights": []
+    },
+    {
+      "organization": "Fundo Baobá",
+      "position": "Mentor",
+      "website": "https://www.linkedin.com/school/laboratoria/",
+      "startDate": "2021-10-15",
+      "endDate": "",
+      "summary": "Helping the black community Baobá with professional development mentorship",
+      "highlights": []
+    }
+  ],
+  "education": [
+    {
+      "institution": "Universidade Federal do Pará",
+      "area": "Applied Computing",
+      "studyType": "Professional Science Master's Degree",
+      "startDate": "2018-12-31",
+      "endDate": "2020-12-31",
+      "gpa": "",
+      "courses": []
+    },
+    {
+      "institution": "Fatec Baixada Santista Rubens Lara",
+      "area": "Analysis and Systems Development",
+      "studyType": "Bachelor of Technology - BTech",
+      "startDate": "2010-12-31",
+      "endDate": "2013-12-31",
+      "gpa": "",
+      "courses": [
+        "20 hours - IBM - AIX/UNIX Introduction"
+      ]
+    },
+    {
+      "institution": "Escola e Faculdade SENAI de Santos",
+      "area": "Computer Networks",
+      "studyType": "Technical Course",
+      "startDate": "2010-12-31",
+      "endDate": "2011-12-31",
+      "gpa": "",
+      "courses": []
+    }
+  ],
+  "awards": [
+    {
+      "title": "37th Place on Global Citi's Innovation Week",
+      "date": "2021-06-30",
+      "awarder": "Citi Innovation Labs",
+      "summary": ""
+    },
+    {
+      "title": "9x awarded Citi engineer",
+      "date": "2021-12-04",
+      "awarder": "Citi",
+      "summary": ""
+    }
+  ],
+  "publications": [
+    {
+      "name": "Design and Analysis of Object-Oriented Feedback Process Scheduler in User Level",
+      "publisher": "BSD Magazine",
+      "releaseDate": "2017-08-31",
+      "website": "https://bsdmag.org/download/freebsd-port-knocking/",
+      "summary": "Some operating systems need modularity between their components as one of the main factors to implement a microkernel that is both secure and fault tolerant. When we consider dealing with operating system structures as objects, we see that it greatly helps to implement the desired modularity in these systems. The purpose of this article is to present an object-oriented design for a feedback process scheduler that runs on user mode. The authors show the details of the original structured implementation, the new pro-posed design, and show the adopted mechanism to interface the new scheduler and the other servers or even the kernel.\n\nVol. 11 No. 08\nIssue 08/2017 (96)\nISSN 1898-9144"
+    },
+    {
+      "name": "Simple Wireshark Usage in Kali Linux",
+      "publisher": "eForensics Magazine",
+      "releaseDate": "2013-12-31",
+      "website": "https://eforensicsmag.com/download/download-from-backtrack-to-kali-linux-free-articles/",
+      "summary": "Vol. 02 No. 22\nIssue 22/2013 (26)\nISSN 2300-6986"
+    },
+    {
+      "name": "Análise de Otimização de Rotinas do Nível 1 do BLAS",
+      "publisher": "Anais do 12º SEMESP / CONIC",
+      "releaseDate": "2012-11-30",
+      "website": "",
+      "summary": ""
+    }
+  ],
+  "skills": [
+    {
+      "name": "Python",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "C#",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "MongoDB",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Software Engineering",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Network administration",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "DNS",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Systems analysis",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "TDD",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Research & Development",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Linux Administration",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Computer Engineering",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Agile Methodologies",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Web Services",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Databases",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "SQL",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "C++",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Cisco Technologies",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Linux",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Debian",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Wireshark",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "HSRP",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Git",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "DevOps",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Servidores",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Java",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "C",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Windows Server",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Transact-SQL",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "XML",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "HP Networking",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Microsoft Windows",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "FreeBSD",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "CCNA R&S",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "C",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Cisco Networking",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "EIGRP",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "ESL (Inglês como segunda língua)",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Sistemas operacionais",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Microsoft SQL Server",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Docker",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "ASP.NET",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "GitHub",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Operating Systems",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Linguagens de programação",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Networking",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Python",
+      "level": "",
+      "keywords": []
+    }
+  ],
+  "languages": [
+    {
+      "language": "pt-br",
+      "fluency": "Native Speaker"
+    }
+    {
+      "language": "en-us",
+      "fluency": "Fluent (Proficient - C2)"
+    }
+    {
+      "language": "es",
+      "fluency": "Fluent (C2)"
+    }
+  ],
+  "interests": [],
+  "references": []
+} 
