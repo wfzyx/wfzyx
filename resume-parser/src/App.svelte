@@ -1,87 +1,103 @@
+
 <script>
     import * as jsonData from './cv.json'
     let resume = JSON.parse(JSON.stringify(jsonData));
-    let xpr = XPathResult;
-    let fopts = { mode : 'no-cors' }
 </script>
 
 <link href="https://emoji-css.afeld.me/emoji.css" rel="stylesheet">
 
 <main>
-    <h1>
-        {resume.basics.name}&nbsp
-        <i class="em-svg em-flag-{resume.basics.location.countryCode}"/>
-    </h1>
-    <h2>{resume.basics.label}</h2>
-    <!--h3>Basics</h3-->
+    <h1>{resume.basics.name}</h1><h2>Software Blacksmith and {resume.basics.label}</h2>
     <p>{resume.basics.summary}</p>
-    <h3>Contact me! :D</h3>
-    <ul class="container">
-        <li class="item"><i class="em-svg em-email"/> <a href="mailto:{resume.basics.email}">{resume.basics.email}</a></li>
-<li class="item"><i class="em-svg em-iphone"/> <a href="tel:{resume.basics.phone}">{resume.basics.phone}</a></li>
-<li class="item"><i class="em-svg em-squid"/> <a href="{resume.basics.profiles[0].url}">{resume.basics.profiles[0].url}</a></li>
-    </ul>
-    <h2>Work Experience</h2>
-    {#each resume.work as xp}
+    <table style="width: 100%">
+        <tr>
+            <td><b>Links</b></td>
+            <td><div>Email</div><i class="noprint em-svg em-email"/> <a href="mailto:{resume.basics.email}">{resume.basics.email}</a></td>
+            <td><div>Phone</div><i class="noprint em-svg em-iphone"/> <a href="tel:{resume.basics.phone}">{resume.basics.phone}</a></td>
+            <td><div>Github</div><i class="noprint em-svg em-squid"/> <a href="{resume.basics.profiles[0].url}">{resume.basics.profiles[0].url}</a></td>
+        </tr>
+        <tr>
+            <td colspan=4><hr/></td>
+        </tr>
+        <tr>
+            <td><b>Languages</b></td>
+            {#each resume.languages as lang}
+                <td><div>{lang.language}</div><i class="noprint em-svg em-flag-{lang.code}"/> {lang.fluency}</td>
+            {/each}
+        </tr>
+    </table>
+    <h2><i class="noprint em em-desktop_computer" aria-role="presentation" aria-label=""/> Work Experience</h2>
+    <div class="ninja">
+        <p>Company: Facebook</p>
+        <p>Company: Apple</p>
+        <p>Company: Amazon</p>
+        <p>Company: Netflix</p>
+        <p>Company: Google</p>
+    </div>
+    {#each resume.work as comp}
+        <div class="pagebreak">
         <hr/>
-        <p style="font-weight: bold">{xp.position} @ <a href="{xp.website}">{xp.company}</a> - Period: {xp.startDate} - {xp.endDate === "" ? "Current" : xp.endDate}</p>
-        <p>{xp.summary}</p>
-        <p>
-            {
-            fetch( xp.website , fopts )
-            .then( res => console.log(res.text) //document.evaluate
-            ( '//*[@id="main-content"]/section[1]/section/div/div[1]/img', res, null, xpr.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue )
-            }
-            
-        </p>
+        Company: <a href="{comp.website}">{comp.company}</a>
         <hr/>
+        {#each comp.positions as pos, idx}
+            {#if idx % 2 === 0} <tr> {/if}
+                <td>
+                    <p><b>{pos.title} from {pos.startDate} until {pos.endDate === "" ? "today" : pos.endDate}</b></p>
+                    <p>{pos.summary}</p>
+                </td>
+        {/each}
+        </div>
     {/each}
-    <h2>Volunteering</h2>
-    {#each resume.volunteer as xp}
-        <hr/>
-        <p>{xp.position} at {xp.organization}({xp.website})</p>
-        <p>Period: {xp.startDate} - {xp.endDate === "" ? "Current" : xp.endDate}</p>
-        <p>{xp.summary}</p>
-        <hr/>
-    {/each}
-    <h2>Education</h2>
-    {#each resume.education as xp}
-        <hr/>
-        <p>{xp.studyType} in {xp.area} at {xp.institution}</p>
-        <p>Period: {xp.startDate} - {xp.endDate === "" ? "Current" : xp.endDate}</p>
-        <hr/>
-    {/each}
-    <h2>Awards</h2>
-    {#each resume.awards as xp}
-        <hr/>
-        <p>{xp.title} at {xp.awarder}</p>
-        <hr/>
-    {/each}
-    <h2>Publications</h2>
-    {#each resume.publications as xp}
-        <hr/>
-        <p>{xp.name} at {xp.publisher}({xp.website})</p>
-        <hr/>
-    {/each}
+    <div class="pagebreak">
+    <h2><i class="noprint em em-male-student" aria-role="presentation" aria-label=""/> Education</h2>
+        <table style="width:100%">
+            {#each resume.education as xp}
+            <tr>
+                <td><b>{xp.studyType}</b> in {xp.area} at </td>
+                <td class="noprint">{xp.institution}</td>
+                <td> <b>{xp.acro}</b> </td>
+                <td style="text-align: right">from {xp.startDate} until {xp.endDate === "" ? "today" : xp.endDate} </td>
+            <tr>
+            {/each}
+        </table>
+    </div>
+    <table>
+            <tr><td><h3><i class="noprint em em-chart_with_upwards_trend" aria-role="presentation" aria-label="CHART WITH UPWARDS TREND"/> Awards</h3></td> <td><h3><i class="noprint em em-raised_hands" aria-role="presentation" aria-label="PERSON RAISING BOTH HANDS IN CELEBRATION"/> Volunteering</h3></td></tr>
+    <tr><td>
+        <table>
+            {#each resume.awards as xp}
+                <tr><td><b>{xp.title}</b> at {xp.awarder}</td></tr>
+            {/each}
+        </table>
+        </td><td>
+        <table>
+            {#each resume.volunteer as xp}
+                <td><b>{xp.position} at <a href="{xp.website}">{xp.organization}</a> from {xp.startDate} until {xp.endDate === "" ? "today" : xp.endDate}</b></td>
+                <tr><td>{xp.summary}</td></tr>
+            {/each}
+        </table>
+    </td></tr></table>
+    <div class="ninja"> 
     <h2>Skills</h2>
-    <ul class="container">
-    {#each resume.skills as skill}
-        <li class="item">{skill.name}</li>
-    {/each}
-    </ul>
-    <h2>Languages</h2>
-    {#each resume.languages as lang}
-        <p>{lang.language}: {lang.fluency}</p>
-    {/each}
+        {#each resume.skills as skill}
+            {skill}&nbsp
+        {/each}
+    </div>
 </main>
 
 <style>
+
 	main {
-		text-align: center;
+		text-align: justify;
 		padding: 1em;
 		margin: 0 auto;
-        width: 50%
+		width: 75em;
+        line-height: 1.4;
 	}
+
+    td {
+        padding: 0 1em 0 0;
+    }
 
 	h1 {
 		text-transform: uppercase;
@@ -89,17 +105,30 @@
 		font-weight: 100;
 	}
 
-    .container {
-        display: flex;
-        flex-wrap: wrap;
-        align-items: center;
-        margin: 0 auto;
+    hr {
+        margin: 0.5em 0 0.5em 0;
     }
 
-    .container .item {
-        flex: 1;
+    p {
+        margin: 0 0 1em 0;
     }
-    ul {
-        list-style-type: none;
+    .ninja {
+        color: transparent;
+        font-size: 0.1em;
+        float: right;
+        position: absolute;
     }
+    .noscreen {
+        display: none;
+    }
+
+
+    @media print
+    {
+        .noprint { display: none; }
+        .pagebreak { page-break-inside: avoid; }
+        .noscreen { display: block; }
+        main { width: 50em; }
+    }
+
 </style>
