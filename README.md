@@ -1,6 +1,6 @@
 ### Hi there 👋
 
-- 🔭 I’m currently working on the work/life balance;
+- 🔭 I’m currently working on my work/life balance;
 - 🌱 I’m currently learning Svelte and German;
 - 👯 I’m looking to collaborate on open-source;
 - 💬 Ask me about video-games and programming languages design;
