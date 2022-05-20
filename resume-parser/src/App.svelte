@@ -1,4 +1,3 @@
-
 <script>
     import * as jsonData from './cv.json'
     let resume = JSON.parse(JSON.stringify(jsonData));
@@ -92,7 +91,8 @@
 		padding: 1em;
 		margin: 0 auto;
 		width: 75em;
-        line-height: 1.4;
+		line-height: 1.4;
+		font-size: x-small;
 	}
 
     td {

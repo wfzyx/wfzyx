@@ -26,11 +26,29 @@
   },
   "work": [
     {
+      "company": "Innuy",
+      "website": "https://www.linkedin.com/company/innuy/",
+      "positions": [
+        {
+          "endDate": "",
+          "title": "Senior Full-stack Software Engineer",
+          "startDate": "2021-11-18",
+          "summary": "Software engineering for multiple customers in different environments, including back-end, chrome extensions, front-end, mostly using the following tools: Python, Django, Flask, React, Javascript, MySql, BigQuery, AWS, GitHub"
+        }
+      ]
+    },
+    {
       "company": "Citi",
       "website": "https://www.linkedin.com/company/citi/",
       "positions": [
         {
           "endDate": "",
+          "title": "Tech Lead",
+          "startDate": "2022-03-01",
+          "summary": "Software engineering and architecture management to provide the best experience for back office processes using C# and Oracle Database"
+        },
+        {
+          "endDate": "2022-03-01",
           "title": "Application Manager",
           "startDate": "2021-02-28",
           "summary": "Application infrastructure management, including server configuration, Linux, OpenShift, WebSphere MQ, uDeploy, Black Duck."
