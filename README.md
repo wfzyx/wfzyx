@@ -1,1 +1,2 @@
-![](https://awesome-github-stats.azurewebsites.net/user-stats/wfzyx?cardType=github&theme=github-dark&showIcons=false&preferLogin=false)
+![](https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=wfzyx&theme=github_dark)
+![](https://github-profile-summary-cards.vercel.app/api/cards/stats?username=wfzyx&theme=github_dark)
