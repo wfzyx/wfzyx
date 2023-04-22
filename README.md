@@ -1,2 +1,1 @@
-![](https://raw.githubusercontent.com/wfzyx/github-stats/master/generated/overview.svg#gh-dark-mode-only)
-![](https://raw.githubusercontent.com/wfzyx/github-stats/master/generated/languages.svg#gh-dark-mode-only)
+[![My Awesome Stats](https://awesome-github-stats.azurewebsites.net/user-stats/wfzyx?cardType=github&theme=github-dark&showIcons=false&preferLogin=false)](https://git.io/awesome-stats-card)
