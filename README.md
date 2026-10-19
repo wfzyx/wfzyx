@@ -10,4 +10,4 @@ On the side I do independent research on efficient inference: quantization, smal
 - [rubick](https://github.com/wfzyx/rubick): chat, embeddings, and decisions served from one local model.
 - [vole](https://github.com/wfzyx/vole): a Linux system cleaner, ported from Mole.
 
-**Contact**: victor.panisa@gmail.com · [Support my open-source work on Ko-fi](https://ko-fi.com/wfzyx)
+**Contact**: [vhugo.dev](https://vhugo.dev) · victor.panisa@gmail.com · [Support my open-source work on Ko-fi](https://ko-fi.com/wfzyx)
